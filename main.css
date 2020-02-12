@@ -1,0 +1,55 @@
+/* Page Elements */
+body {
+	background-color: palegreen;
+	font-family: "Times New Roman";
+}
+h1 {
+	text-align: center;
+}
+button {
+	text-transform: uppercase;
+	font-size: 25px;
+	color: red;
+	padding: 20px 50px;
+	background-color: lightskyblue;
+}
+button:hover {
+    background-color: lightgrey;
+}
+
+/* Classes */
+.gamebox {
+	border: 2px solid black;
+	background-color: white;
+	width: 600px;
+	height: 750px;
+	max-height: 750px;
+	margin: 25px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.chatbox form {
+	display: flex;
+	flex-grow: 1;
+	font-size: 15px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/* IDs */
+#output {
+	border-bottom: 2px solid black;
+	flex-grow: 1;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll; 
+}
+
+#output li {
+	padding: 12px 12px;
+}
